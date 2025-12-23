@@ -17,8 +17,8 @@ export async function POST(request: NextRequest) {
     // Enviar email para o administrador
     const { data, error } = await resend.emails.send({
       from: process.env.RESEND_FROM_EMAIL || 'Contato <onboarding@resend.dev>',
-      to: process.env.CONTACT_EMAIL || 'seu-email@exemplo.com',
-      replyTo: email,
+      to: process.env.CONTACT_EMAIL || 'mauriciogedrat@gmail.com',
+      reply_to: email,
       subject: `[Blog] ${subject} - ${name}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">

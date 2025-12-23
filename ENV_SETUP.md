@@ -28,6 +28,6 @@ STRIPE_SECRET_KEY=sk_test_sua-chave-aqui
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_sua-chave-aqui
 
 # Email de contato
-CONTACT_EMAIL=seu-email@exemplo.com
+CONTACT_EMAIL=mauriciogedrat@gmail.com
 ```
 

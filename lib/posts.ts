@@ -1,5 +1,5 @@
 import { createServerClient } from './supabase-server'
-import { readingTime } from 'reading-time'
+import readingTime from 'reading-time'
 
 export type Post = {
   slug: string

@@ -24,6 +24,7 @@ export default function CommentsSection({ postSlug }: Props) {
 
   useEffect(() => {
     loadComments()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [postSlug])
 
   const loadComments = async () => {

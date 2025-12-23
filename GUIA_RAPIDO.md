@@ -51,7 +51,7 @@ NEXT_PUBLIC_ADSENSE_ID=
 GOOGLE_SITE_VERIFICATION=
 STRIPE_SECRET_KEY=
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
-CONTACT_EMAIL=seu-email@exemplo.com
+CONTACT_EMAIL=mauriciogedrat@gmail.com
 ```
 
 ### 5. Instalar e Executar (2 minutos)
