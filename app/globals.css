@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: 'Inter', system-ui, sans-serif;
+  --font-mono: 'Fira Code', 'Courier New', monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-white text-dark-800 antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold text-dark-900;
+  }
+}
+
+@layer components {
+  .prose-custom {
+    @apply prose prose-lg max-w-none;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-dark-200 text-dark-800 px-6 py-3 rounded-lg font-semibold hover:bg-dark-300 transition-colors duration-200;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-md p-6 border border-dark-200 hover:shadow-lg transition-shadow duration-200;
+  }
+}
+
